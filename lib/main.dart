@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/my_list_page.dart';
+import 'package:flutter_application_1/product_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -38,7 +38,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Column(
         children: [
           ElevatedButton(onPressed: (){
-            Navigator.push(context, MaterialPageRoute(builder: (context)=>MyListPage()));
+            Navigator.push(context, MaterialPageRoute(builder: (context)=>ProductPage()));
           }, child: Text("listpage"))
         ],
       ) 
